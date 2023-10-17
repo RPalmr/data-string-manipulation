@@ -9,21 +9,20 @@ def add_comma(a_string):
     returns a copy of the string with every word separated by a comma
     example: add_comma("John Peter Jude") => "John, Peter, Jude"
     """
-    pass  # YOUR CODE HERE
+    return ', '.join(a_string.split())
 
 def belongs_to(a_string, a_word):
     """
     returns True if a_string contains a_word
     example: belongs_to("hey jude", "jude") => True
     """
-    pass  # YOUR CODE HERE
+    return a_word in a_string
 
 def count_repetition(a_string, a_substring):
     """
     returns how many times a_substring occurs in a_string
     example: count_repetition("000123000123", "0") => 6
     """
-    pass  # YOUR CODE HERE
 
 def is_a_question(a_string):
     """
@@ -61,4 +60,3 @@ def full_description_formatting(first_name, last_name, age):
     example: full_description_formatting("john", "doe", 33) => "John Doe is 33"
     """
     pass  # YOUR CODE HERE
-
