@@ -38,14 +38,14 @@ def remove_surrounding_whitespaces(a_string):
     returns a copy of the string with leading and trailing whitespaces removed
     example: delete_surrounding_whitespaces("  hey yo  ") => "hey yo"
     """
-    pass  # YOUR CODE HERE
+    return a_string.strip()
 
 def replace(initial_string, old_letter, new_letter):
     """
     returns a copy of the string with the new letter replacing the old one
     example: replace("casanova", "a", "o") => "cosonovo"
     """
-    pass  # YOUR CODE HERE
+    return initial_string.replace(old_letter, new_letter)
 
 def full_description_concatenation(first_name, last_name, age):
     """
