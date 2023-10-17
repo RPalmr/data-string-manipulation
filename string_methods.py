@@ -24,12 +24,14 @@ def count_repetition(a_string, a_substring):
     example: count_repetition("000123000123", "0") => 6
     """
 
+    return a_string.count(a_substring)
+
 def is_a_question(a_string):
     """
     returns True if a_string ends with a "?"
     example: is_a_question("How are you?") => True
     """
-    pass  # YOUR CODE HERE
+    return a_string.endswith("?")
 
 def remove_surrounding_whitespaces(a_string):
     """
